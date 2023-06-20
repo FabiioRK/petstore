@@ -13,11 +13,20 @@
 		573DB83E29F7EE4A00F6DA09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 573DB83D29F7EE4A00F6DA09 /* Assets.xcassets */; };
 		573DB84129F7EE4A00F6DA09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 573DB83F29F7EE4A00F6DA09 /* LaunchScreen.storyboard */; };
 		573DB85229F7F1EA00F6DA09 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573DB85129F7F1EA00F6DA09 /* LoginViewController.swift */; };
+		E52585A62A3E597200E78D22 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52585A52A3E597200E78D22 /* APIConstants.swift */; };
+		E52585A82A3E59B100E78D22 /* AdoptPetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52585A72A3E59B100E78D22 /* AdoptPetViewController.swift */; };
+		E52585AA2A3E59D500E78D22 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52585A92A3E59D500E78D22 /* PetDetailViewController.swift */; };
+		E52585AC2A3E5E7100E78D22 /* AdoptPetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52585AB2A3E5E7100E78D22 /* AdoptPetCell.swift */; };
 		E5B26C8A29FC435800D42474 /* HomeProductDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B26C8929FC435800D42474 /* HomeProductDataSource.swift */; };
 		E5B26C8C29FC441A00D42474 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B26C8B29FC441A00D42474 /* Product.swift */; };
 		E5B8FE4229FB15CA007BA485 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8FE4129FB15CA007BA485 /* HomeViewController.swift */; };
+		E5BEFEFD2A4140720066714E /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BEFEFC2A4140720066714E /* UIImageView.swift */; };
+		E5BEFEFF2A414D4D0066714E /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BEFEFE2A414D4D0066714E /* LoadingView.swift */; };
+		E5BEFF012A414DA10066714E /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BEFF002A414DA10066714E /* LoadingViewController.swift */; };
 		E5C78E4829FE9D9500DC280A /* HomeProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C78E4729FE9D9500DC280A /* HomeProductCell.swift */; };
 		E5C78E4A29FEA0BC00DC280A /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C78E4929FEA0BC00DC280A /* ProductViewController.swift */; };
+		E5D1B19A2A3FAA700062DEE1 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1B1992A3FAA700062DEE1 /* APIService.swift */; };
+		E5D1B19C2A3FFE250062DEE1 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D1B19B2A3FFE250062DEE1 /* Pet.swift */; };
 		E5D785C72A00A038001E8A36 /* OfferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D785C62A00A038001E8A36 /* OfferViewController.swift */; };
 		E5D785C92A00A05C001E8A36 /* OfferProductDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D785C82A00A05C001E8A36 /* OfferProductDataSource.swift */; };
 		E5D785CD2A00A0FC001E8A36 /* OfferProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D785CC2A00A0FC001E8A36 /* OfferProductCell.swift */; };
@@ -32,11 +41,20 @@
 		573DB84029F7EE4A00F6DA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		573DB84229F7EE4A00F6DA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		573DB85129F7F1EA00F6DA09 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E52585A52A3E597200E78D22 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		E52585A72A3E59B100E78D22 /* AdoptPetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptPetViewController.swift; sourceTree = "<group>"; };
+		E52585A92A3E59D500E78D22 /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
+		E52585AB2A3E5E7100E78D22 /* AdoptPetCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdoptPetCell.swift; sourceTree = "<group>"; };
 		E5B26C8929FC435800D42474 /* HomeProductDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductDataSource.swift; sourceTree = "<group>"; };
 		E5B26C8B29FC441A00D42474 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		E5B8FE4129FB15CA007BA485 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E5BEFEFC2A4140720066714E /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E5BEFEFE2A414D4D0066714E /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		E5BEFF002A414DA10066714E /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		E5C78E4729FE9D9500DC280A /* HomeProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProductCell.swift; sourceTree = "<group>"; };
 		E5C78E4929FEA0BC00DC280A /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		E5D1B1992A3FAA700062DEE1 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		E5D1B19B2A3FFE250062DEE1 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		E5D785C62A00A038001E8A36 /* OfferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferViewController.swift; sourceTree = "<group>"; };
 		E5D785C82A00A05C001E8A36 /* OfferProductDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferProductDataSource.swift; sourceTree = "<group>"; };
 		E5D785CC2A00A0FC001E8A36 /* OfferProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferProductCell.swift; sourceTree = "<group>"; };
@@ -56,6 +74,8 @@
 		573DB82829F7EE4800F6DA09 = {
 			isa = PBXGroup;
 			children = (
+				E52585A02A3E580500E78D22 /* views */,
+				E525859F2A3E57F700E78D22 /* utils */,
 				573DB84929F7EFA600F6DA09 /* cells */,
 				573DB84A29F7EFAF00F6DA09 /* datasource */,
 				573DB84B29F7EFB700F6DA09 /* models */,
@@ -81,6 +101,7 @@
 			children = (
 				E5C78E4729FE9D9500DC280A /* HomeProductCell.swift */,
 				E5D785CC2A00A0FC001E8A36 /* OfferProductCell.swift */,
+				E52585AB2A3E5E7100E78D22 /* AdoptPetCell.swift */,
 			);
 			path = cells;
 			sourceTree = "<group>";
@@ -88,6 +109,8 @@
 		573DB84A29F7EFAF00F6DA09 /* datasource */ = {
 			isa = PBXGroup;
 			children = (
+				E52585A52A3E597200E78D22 /* APIConstants.swift */,
+				E5D1B1992A3FAA700062DEE1 /* APIService.swift */,
 				E5B26C8929FC435800D42474 /* HomeProductDataSource.swift */,
 				E5D785C82A00A05C001E8A36 /* OfferProductDataSource.swift */,
 			);
@@ -98,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				E5B26C8B29FC441A00D42474 /* Product.swift */,
+				E5D1B19B2A3FFE250062DEE1 /* Pet.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -109,6 +133,9 @@
 				E5B8FE4129FB15CA007BA485 /* HomeViewController.swift */,
 				E5C78E4929FEA0BC00DC280A /* ProductViewController.swift */,
 				E5D785C62A00A038001E8A36 /* OfferViewController.swift */,
+				E52585A72A3E59B100E78D22 /* AdoptPetViewController.swift */,
+				E52585A92A3E59D500E78D22 /* PetDetailViewController.swift */,
+				E5BEFF002A414DA10066714E /* LoadingViewController.swift */,
 			);
 			path = scenes;
 			sourceTree = "<group>";
@@ -129,6 +156,22 @@
 				573DB83429F7EE4800F6DA09 /* AppDelegate.swift */,
 			);
 			path = delegates;
+			sourceTree = "<group>";
+		};
+		E525859F2A3E57F700E78D22 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				E5BEFEFC2A4140720066714E /* UIImageView.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		E52585A02A3E580500E78D22 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				E5BEFEFE2A414D4D0066714E /* LoadingView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,15 +246,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5B26C8C29FC441A00D42474 /* Product.swift in Sources */,
+				E5D1B19C2A3FFE250062DEE1 /* Pet.swift in Sources */,
 				E5D785CD2A00A0FC001E8A36 /* OfferProductCell.swift in Sources */,
 				E5D785C72A00A038001E8A36 /* OfferViewController.swift in Sources */,
+				E52585AA2A3E59D500E78D22 /* PetDetailViewController.swift in Sources */,
 				573DB85229F7F1EA00F6DA09 /* LoginViewController.swift in Sources */,
 				573DB83529F7EE4800F6DA09 /* AppDelegate.swift in Sources */,
+				E5BEFF012A414DA10066714E /* LoadingViewController.swift in Sources */,
 				E5C78E4A29FEA0BC00DC280A /* ProductViewController.swift in Sources */,
+				E52585A82A3E59B100E78D22 /* AdoptPetViewController.swift in Sources */,
+				E52585A62A3E597200E78D22 /* APIConstants.swift in Sources */,
 				E5B26C8A29FC435800D42474 /* HomeProductDataSource.swift in Sources */,
 				573DB83729F7EE4800F6DA09 /* SceneDelegate.swift in Sources */,
 				E5C78E4829FE9D9500DC280A /* HomeProductCell.swift in Sources */,
 				E5B8FE4229FB15CA007BA485 /* HomeViewController.swift in Sources */,
+				E52585AC2A3E5E7100E78D22 /* AdoptPetCell.swift in Sources */,
+				E5BEFEFD2A4140720066714E /* UIImageView.swift in Sources */,
+				E5D1B19A2A3FAA700062DEE1 /* APIService.swift in Sources */,
+				E5BEFEFF2A414D4D0066714E /* LoadingView.swift in Sources */,
 				E5D785C92A00A05C001E8A36 /* OfferProductDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
